@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
 auth.useDeviceLanguage();
 auth.languageCode = "en";
 
-const page = () => {
+const Page = () => {
   const [phoneNumber, setPhoneNumber] = React.useState("");
   const [otp, setOtp] = React.useState("");
   const [loading, setLoading] = useState<boolean>(false);
@@ -88,4 +88,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
