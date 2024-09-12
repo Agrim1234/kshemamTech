@@ -34,8 +34,8 @@ const Page = () => {
     ])
 
     return (
-        <div className="bg-gray-100 min-h-screen p-4">
-            <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className=" min-h-screen p-4">
+            <div className="max-w-md mx-auto bg-white rounded-lg overflow-hidden">
                 {/* Header */}
                 <div className="bg-gray-200 p-4 flex justify-between items-center">
                     <div className="w-6"></div> {/* Placeholder for left icon */}

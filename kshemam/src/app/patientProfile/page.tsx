@@ -11,7 +11,7 @@ const ProfileForm = () => {
     const [hasCondition, setHasCondition] = useState(false);
 
     return (
-        <div className="max-w-md mx-auto bg-white shadow-md rounded-lg max-h-[90vh] overflow-auto scroll-smooth">
+        <div className="max-w-md mx-auto bg-white rounded-lg max-h-[90vh] overflow-auto scroll-smooth">
 
             <div className="bg-gray-200 p-4 flex justify-start fixed top-0 items-center gap-8 w-[448px] max-w-md">
                 <div className="w-6">

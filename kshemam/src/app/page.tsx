@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center h-[90vh] bg-gray-100">
-            <div className=" rounded-lg shadow-lg p-8 w-80 md:h-full">
+            <div className=" rounded-lg p-8 w-80 md:h-full">
                 {/* Logo section */}
                 <div className="flex justify-center mb-6">
                     <div className="rounded-full flex items-center justify-center">
